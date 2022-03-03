@@ -14,11 +14,13 @@
 </head>
 <body>
     <!--<body style="margin: 30px 150px; background-color: cornflowerblue;"> -->
-        <h1>Registrese</h1>
+        <h>COÑOURS JLVP</h>
+        <a src="./colours.png"></a>
         <a href="./desarrollo web/">Inicio </a>
-        <p>Colours is a Colombian company dedicated to the marketing and sale of printed garments. 
+        <b>
+        <p style="margin: aling 30px 100px; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Colours is a Colombian company dedicated to the marketing and sale of printed garments. 
             With a youthful style that exceeds any age.
-            Urban, modern and fresh.</p>
+            Urban, modern and fresh.</p></b>
     <form action="">
         <fieldset style="border-color: black;">
             <legend>Datos Personales</legend>
@@ -47,19 +49,28 @@
             <input type="number" id="myage" min="0" max="100">
         </fieldset>
 
-        <fieldset>
-            <legend>Cuestionario</legend>
+        <fieldset style="border: dotted; color: black;">
+            <legend>Catálogo</legend>
             <ol>
-                <li>(Selección Única Respuesta) Indique su jornada de estudios: <br>
+                <li>(Selección Única Respuesta) Seleccione una categoria del catalogo: <br>
 
-                    <input type="radio" id="morning" name="journey">
-                    <label for="morning">Mañana</label>
+                    <input type="radio" id="offers" name="catalog">
+                    <label for="offers">Ofertas</label>
 
-                    <input type="radio" id="afternoon" name="journey">
-                    <label for="afternoon">Tarde</label>
+                    <input type="radio" id="shorts" name="catalog">
+                    <label for="shorts">Shorts</label>
 
-                    <input type="radio" id="evenning" name="journey">
-                    <label for="evenning">Mañana</label>
+                    <input type="radio" id="sweters" name="journey">
+                    <label for="sweters">Buzos</label>
+
+                    <input type="radio" id="t-shirts" name="catalog">
+                    <label for="t-shirts">Camisetas</label>
+
+                    <input type="radio" id="pants" name="catalog">
+                    <label for="pants">Sudaderas</label>
+
+                    <input type="radio" id="sneakers" name="journey">
+                    <label for="sneakers">Tennis</label>
                 </li>
                 <li>(Selección Múltiple Respuesta) Indique las competencias que vee en el trimestre:<br>
                     <input type="checkbox" id="comp1" name="comp1">
