@@ -1,6 +1,6 @@
 * {
     margin: 30px 150px;
-    background-color: cornflowerblue;
+    background-color: white;
 }
 .title{
 text-align: center;
@@ -9,15 +9,15 @@ font-style: oblique;
 }
 .datos{
     text-align: left;
-    border-color: darkblue;
-    border-style: double;
+    border-color: black;
+    border-style: double 10px;
     background-position: left;
 }
 
 .ingreso{
 
- border-color: darkblue;
- border-style: dotted;
+ border-color: black;
+ border-style: dotted 10px;
 }
 
 
