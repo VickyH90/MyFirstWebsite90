@@ -10,14 +10,14 @@ font-style: oblique;
 .datos{
     text-align: left;
     border-color: black;
-    border-style: double 10px;
+    border-style: double;
     background-position: left;
 }
 
 .ingreso{
 
  border-color: black;
- border-style: dotted 10px;
+ border-style: dotted;
 }
 
 
