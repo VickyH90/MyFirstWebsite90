@@ -1,5 +1,5 @@
 *{
-background-color: cornflowerblue;
+background-color: white;
 box-sizing:border-box; color: black;
     
 }
@@ -13,14 +13,14 @@ p {
 /* ENCABEZADO DE PÁGINA */
 header {
     border: 3px black solid;
-    background-color: cornflowerblue;
+    background-color: white;
     padding: 20px 50px;
     margin: 0;
     width: auto;
     font-family:cursive;
     font-size: 25pt;
     font-weight: bolder;
-    color: white;
+    color: black;
 }
 
 /* PANEL PRINCIPAL DE NAVEGACIÓN */
