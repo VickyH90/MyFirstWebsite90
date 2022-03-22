@@ -1,0 +1,33 @@
+* {
+    margin: 30px 150px;
+    background-color: cornflowerblue;
+}
+
+.datos{
+    
+    border-color: black;
+    border-style: round;
+
+}
+
+.ingreso{
+
+ border-color: black;
+ border-style: dotted;
+}
+
+
+footer{
+
+    text-align: left; 
+    font-size: smaller;
+    border-style: hidden;
+
+}
+
+
+footer,img{
+
+     border-image-width: 70%; 
+     image-orientation: flip;
+}
