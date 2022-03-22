@@ -2,12 +2,11 @@
     margin: 30px 150px;
     background-color: cornflowerblue;
 }
-body{
-
-    margin: 30px 150px;
-    background-color: cornflowerblue;
+.title{
+text-align: center;
+font-size: larger;
+font-style: oblique;
 }
-
 .datos{
     
     border-color: darkblue;
@@ -24,8 +23,8 @@ body{
 
 .footer{
 
-    text-align: left; 
-    font-size: smaller;
+    text-align: justify; 
+    font-size: large;
     border-style: hidden;
 
 }
@@ -34,5 +33,5 @@ body{
 .footer,img{
 
      border-image-width: 70%; 
-     image-orientation: from-image;
+     image-orientation: left;
 }
