@@ -3,21 +3,21 @@
     background-color: cornflowerblue;
 }
 body{
-    
+
     margin: 30px 150px;
     background-color: cornflowerblue;
 }
 
 .datos{
     
-    border-color: black;
+    border-color: darkblue;
     border-style: round;
 
 }
 
 .ingreso{
 
- border-color: black;
+ border-color: darkblue;
  border-style: dotted;
 }
 
@@ -34,5 +34,5 @@ footer{
 footer,img{
 
      border-image-width: 70%; 
-     image-orientation: flip;
+     image-orientation: left;
 }
