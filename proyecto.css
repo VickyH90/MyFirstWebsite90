@@ -22,7 +22,7 @@ body{
 }
 
 
-footer{
+.footer{
 
     text-align: left; 
     font-size: smaller;
@@ -31,7 +31,7 @@ footer{
 }
 
 
-footer,img{
+.footer,img{
 
      border-image-width: 70%; 
      image-orientation: from-image;
