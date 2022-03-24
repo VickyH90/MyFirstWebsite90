@@ -19,7 +19,8 @@
 }
 
 .form_login{
-    
+    width: 400px;
+    height: 340px;
     background-color: #4e4d4d;
     margin: auto;
     margin-top: 180px;
