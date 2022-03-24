@@ -112,12 +112,21 @@
     font-style: oblique;
 }
 
+.form_login .p .botton{
+    text-decoration: overline;
+    color: darkorchid;
+    text-align: center;
+    font-style: oblique;
+    border-radius: inherit;
+}
+
 .pie{
     width: 100%;
     border: 1px none;
     margin-bottom: 15px;
     padding: 11px 10px;
     background: #017bab;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: bold;  
+    font-family: Georgia;
 }
