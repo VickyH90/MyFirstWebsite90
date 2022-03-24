@@ -8,7 +8,7 @@
     <title>Registro</title>
 </head>
 <body>
-    <img class="avatar" src="img/logo.jpg" alt="logo de colours JVLP">
+    <img class="avatar" src="./imagenes/colours.png" alt="logo de colours JVLP">
     <form action="./data_processing.php" method="get">
    <section class="form_login">
        <h5> Registro Clienttes</h5>
@@ -19,12 +19,12 @@
        <input class="controls" type="text" name="Usuario" value="" placeholder="Usuario">
        <input class="controls" type="password" name="Contraseña" value="" placeholder="Contraseña">
        <input class="controls" type="date" name="Fecha" value="" placeholder="Ingrese su Fecha de Nacimiento"> <br>
-       <label for="photo">Fotografía</label>
+       <label class="label" for="photo">Fotografía</label>
        
 
     <fieldset class="entrar">
-        <input type="file" id="myfile" name="myfile"> <br>
-    <input type="submit" value="Ingresar"> <br>
+        <input class="photo" type="file" id="myfile" name="myfile"> <br>
+    <input type="submit" value="Ingresar"> 
     <input type="reset" value="Limpiar">
     </fieldset>
        <br>
@@ -33,5 +33,17 @@
        </p>
    </section> 
     </form>
+    <section class="footer">
+    <footer class="pie">
+        <div>
+        <i> <b> puedes ubicar aquí </i> </b> <br>
+        <img src="./imagenes/ubicacion.png" alt="ubicacion" width="10%" height="10%"> <br>
+        <a href="https://goo.gl/maps/AJ7AU86ECDCFtGzh9" target="google maps"> maps </a>
+    </div>
+        <address> Avenida 33 #75C-56 Laureles, Medellín </address>
+        <a href="info@coloursfv.com">info@coloursfv.com</a>
+
+    </footer>
+</section>
 </body>
 </html>
