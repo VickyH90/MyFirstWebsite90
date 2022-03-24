@@ -7,34 +7,37 @@ box-sizing:border-box; color: black;
 
 p {
     text-align: center;
-    font-size: larger;
+    font-size: medium;
+}
+
+title {
+    text-align: center;
+    font-size: x-large;
 }
 
 /* ENCABEZADO DE PÁGINA */
 header {
-    border: 3px black solid;
-    background-color: white;
+    border: 3px white hidden;
+    background-color: black;
     padding: 20px 50px;
     margin: 0;
     width: auto;
     font-family:cursive;
-    font-size: 25pt;
+    font-size: 50pt;
     font-weight: bolder;
-    color: black;
 }
 
 /* PANEL PRINCIPAL DE NAVEGACIÓN */
-nav, aside {
-     border: 3px black solid; 
-    background-color: #333;
-}
 
-nav ul, aside ul {
+
+
+nav ul {
     /* border: 3px green solid; */
     list-style-type: none;
     margin: 0px;
     padding: 0px;
     overflow: hidden; /*Se necesita sino no funciona */
+    font-size: medium;
 }
 
 #on_right {
@@ -44,11 +47,12 @@ nav ul, aside ul {
 nav li {
     /* border: 2px blue solid; */
     float: left;
+    font-size: larger;
     /* display: inline; */
 }
 
 aside li {
-    border: 2px darkblue solid; 
+    border: 2px white; 
      display: inline; 
 }
 
@@ -57,12 +61,13 @@ nav li a, aside li a {
     display: block;
     margin: 0px;
     padding: 10px;
-    color: white;
+    color: black;
     text-decoration: none;
 }
 
 nav li:hover, aside li:hover {
-    background-color: #111;
+    background-color: blue;
+    font-size: larger;
 }
 
 aside {
@@ -71,12 +76,12 @@ aside {
     padding: 50px 0px 0px 0px;
     width: 15%;
     height:2640px;
-    /* border: 0px black dotted; */
+     border: 0px black dotted; 
 }
 
 main {
     /* border: 3px red solid; */
-    background-color: blue;
+    background-color: white;
     width: 85%;
     float: left;
     padding: 10px;
@@ -115,7 +120,7 @@ code {
     float: left;
     margin: 0px;
     padding: 5px;
-    font-size: small;
+    font-size: medium;
     font-style: italic;
     text-align: center;
     
@@ -131,8 +136,8 @@ code {
 
  footer {
     /* border: 3px solid red; */
-    background-color: midnightblue;
-    color: cornsilk;
+    background-color: black;
+    color: white;
     clear: left;
     padding: 10px;
     margin: 0px;
