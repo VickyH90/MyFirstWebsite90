@@ -8,6 +8,14 @@
     font-family: Georgia;
 }
 
+.body image{
+    width: 400px;
+    height: 340px;
+    margin: auto;
+    margin-top: 180px;
+    padding: 20px 30px; 
+    border-top: 4px;
+}
 .id{
     width: 100%;
     border: 1px solid #017bab;
