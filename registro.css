@@ -9,11 +9,11 @@
 }
 
 .body image{
-    width: 400px;
-    height: 340px;
-    margin: auto;
+    width: 20px;
+    height: 30px;
+    margin: 400px;
     margin-top: 180px;
-    padding: 20px 30px; 
+    padding: 400px 300px; 
     border-top: 4px;
 }
 .id{
