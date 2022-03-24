@@ -6,31 +6,34 @@
 
 .body{
     font-family: Georgia;
-    background:url(../imagenes/fondo2\ \(1\).jpg);
+    background:url(../imagenes/fondo2\ \(1\.jpg);
 
 }
 
-.id{
-    width: 100%;
-    border: 1px solid #017bab;
-    margin-bottom: 15px;
-    padding: 11px 10px;
-    background: #252323;
-    font-size: 14px;
-    font-weight: bold;
+.imgs{
+   width: 5%;
+   height: 20px;
+   width: 5px;
+    padding:0;  
+    margin-left: 0;
+}
+.aside{
+    align-items: flex-start;
 }
 
 .form_login{
-    width: 400px;
-    height: 340px;
+    width: 700px;
+    height: 622px;
     background-color: #4e4d4d;
     margin: auto;
-    margin-top: 180px;
+    margin-top: 283px;
     box-shadow: 7px  13px 37px black;
-    padding: 20px 30px;
-    border-top: 4px solid white ;
+    padding: 10px;
+    border-top: 0px solid white ;
     color:  #017bab;
     overflow: scroll;
+    margin-right: 0;
+    margin-block-start: auto;
 }
 
 .form_login h5{
@@ -64,7 +67,7 @@
     width: 100%;
     border: 1px solid;
     margin-bottom: 15px;
-    padding: 11px 10px;
+    padding: 11px 15px;
     background: #017bab;
     font-size: 14px;
     font-weight: bold;
@@ -81,11 +84,11 @@
     
 
 }
-.clic:hover{
-    background-color: #017bab;
+.input.clic:hover{
     color: darkorchid;
-    border: none;
+    border: dashed;
     border-style: hidden;
+    text-decoration: unset;
 
 }
 
