@@ -14,12 +14,12 @@
     height: 340px;
     background: #4e4d4d;
     color: black;
-    top: 50%;
+    top: 180%;
     left: 50%;
     position: absolute;
     transform: translate(-50%, -50%);
     box-sizing: border-box;
-    padding: 70px 30px;
+    padding: 20px 30px;
 }
 .id{
     width: 100%;
