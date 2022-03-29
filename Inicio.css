@@ -59,6 +59,14 @@ background:url(../MyFirstWebsite90/imagenes/fondo2\ \(1\).jpg);
     color: #cfcfcf;
 }
 
+.login-box li{
+    list-style-type: none;
+    font-size: medium;
+    text-align: right;
+}
+.login-box li:hover{
+    color:blue;
+}
 .login-box a:hover {
     color: white;
 }

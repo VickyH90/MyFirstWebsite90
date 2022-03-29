@@ -1,4 +1,5 @@
 *{
+
     box-sizing: border-box;
   }
 
@@ -8,27 +9,29 @@ p {
 
 /* ENCABEZADO DE PÁGINA */
 header {
-    border: 3px blue solid;
-    background-color: cornflowerblue;
-    padding: 40px 60px;
+    background-image: url(../MyFirstWebsite90/imagenes/fondo2\ \(1\).jpg);
+    border: 0;
+    padding: 40px 500px;
     margin: 0;
     width: auto;
     font-family:cursive;
-    font-size: 25pt;
+    font-size: 42pt;
     font-weight: bolder;
-    color: black;
+    color: pink;
     text-align: center;
 }
 
 /* PANEL PRINCIPAL DE NAVEGACIÓN */
 nav, aside {
     /* border: 3px red solid; */
-    background-color: #333;
+    background-color:black;
+    
+
 }
 
 nav ul, aside ul {
     /* border: 3px green solid; */
-    list-style-type: none;
+    list-style-type:lower-latin;
     margin: 0px;
     padding: 0px;
     overflow: hidden; /*Se necesita sino no funciona */
@@ -39,15 +42,9 @@ nav ul, aside ul {
 }
 
 nav li {
-    /* border: 2px blue solid; */
     float: left;
-    /* display: inline; */
 }
 
-aside li {
-    /* border: 2px darkblue solid; */
-    /* display: inline; */
-}
 
 nav li a, aside li a {
     /* border: 1px purple solid; */
@@ -59,7 +56,7 @@ nav li a, aside li a {
 }
 
 nav li:hover, aside li:hover {
-    background-color: #111;
+    background-color: pink;
 }
 
 aside {
@@ -73,14 +70,42 @@ aside {
 
 main {
     /* border: 3px red solid; */
-    background-color: lightgray;
+    background-color: #cac9bf;
     width: 100%;
     float: left;
     padding: 10px;
     margin: 0px 0px;
     /* overflow: hidden; */
 }
-
+.redes{
+    text-align: right;
+}
+main p {
+font-family:  Georgia;
+}
+main h1{
+    font-family:Verdana;
+    text-align: center;
+    font-weight: bold;
+}
+h1 title{
+    font-weight: bolder;
+    text-align: center;
+}
+.letter{
+    color: pink;
+}
+.subtitle{
+  font-size: xx-large;
+  font-weight: bolder;
+  text-decoration-line: none;
+}
+.history{
+    text-align: left;
+    font-size: xx-large;
+  font-weight: bolder;
+  text-decoration-line: none;
+}
 article {
     /* border: 2px green solid; */
     background:lightskyblue;
@@ -93,7 +118,6 @@ section {
     padding: 10px 30px;
     color: white;
 }
-
 
 code {
     /* border: 1px purple solid; */
@@ -155,24 +179,19 @@ table tr:nth-child(even) {
     background-color: #eee;
 }
 
-/* table tr:nth-child(odd) {
-    background-color: #fff;
-}*/
 
 table tr:hover {
     background-color: #ddd;
 }
 
  footer {
-    /* border: 3px solid red; */
-    background-color: midnightblue;
-    color: black;
+    background-image: url(../MyFirstWebsite90/imagenes/fondo2\ \(1\).jpg);
+    color: pink;
     clear: left;
     padding: 10px;
     margin: 0px;
     overflow: auto;
 }
-
 
 .footer_blocks {
     /* border: 2px white solid; */
@@ -181,3 +200,4 @@ table tr:hover {
     padding: 10px;
     margin: 0px;
 }
+
