@@ -1,0 +1,182 @@
+*{
+    box-sizing: border-box;
+  }
+
+p {
+    text-align: justify;
+}
+
+/* ENCABEZADO DE PÁGINA */
+header {
+    border: 3px blue solid;
+    background-color: cornflowerblue;
+    padding: 20px 50px;
+    margin: 0;
+    width: auto;
+    font-family:cursive;
+    font-size: 25pt;
+    font-weight: bolder;
+    color: white;
+}
+
+/* PANEL PRINCIPAL DE NAVEGACIÓN */
+nav, aside {
+    /* border: 3px red solid; */
+    background-color: #333;
+}
+
+nav ul, aside ul {
+    /* border: 3px green solid; */
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden; /*Se necesita sino no funciona */
+}
+
+#on_right {
+    float: right;
+}
+
+nav li {
+    /* border: 2px blue solid; */
+    float: left;
+    /* display: inline; */
+}
+
+aside li {
+    /* border: 2px darkblue solid; */
+    /* display: inline; */
+}
+
+nav li a, aside li a {
+    /* border: 1px purple solid; */
+    display: block;
+    margin: 0px;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+nav li:hover, aside li:hover {
+    background-color: #111;
+}
+
+aside {
+    float: left;
+    margin: 0px;
+    padding: 50px 0px 0px 0px;
+    width: 15%;
+    height:2640px;
+    /* border: 0px black dotted; */
+}
+
+main {
+    /* border: 3px red solid; */
+    background-color: violet;
+    width: 85%;
+    float: left;
+    padding: 10px;
+    margin: 0px 0px;
+    /* overflow: hidden; */
+}
+
+article {
+    /* border: 2px green solid; */
+    background:lightskyblue;
+}
+
+section {
+    /* border: 1px blue solid; */
+    background:rgb(58, 59, 59);
+    margin: 10px; /* 10px 10px 0px 50px */
+    padding: 10px 30px;
+    color: white;
+}
+
+
+code {
+    /* border: 1px purple solid; */
+    color:rgb(255, 0, 162);
+    background-color:pink;
+    padding: 3px;
+    font-weight:bold;
+    display: block;
+    text-align: center;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.my_puppies {
+    width: 33.33%;
+    float: left;
+    margin: 0px;
+    padding: 5px;
+    font-size: small;
+    font-style: italic;
+    text-align: center;
+    
+}
+
+.centered_image {
+    /* border: 2px darkblue solid; */
+    overflow: auto;
+    /*margin: 0px auto; Para centrar pero no sirve ho he podido
+     ya que los elementos se juntan con left. EL bloque se centra 
+     pero internamente no. El paddign no sirve*/
+}
+
+table {
+    width: 80%;
+    margin: 0 auto; /* Para centrar */
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    background-color: white;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+/* table, th, td {
+    border: purple 1px solid;
+    border-collapse: collapse;
+    text-align: center;
+} */
+
+th {
+    background-color: #04AA6D;
+    color: white;
+}
+
+th, td {
+    padding: 5px;
+}
+
+table tr:nth-child(even) {
+    background-color: #eee;
+}
+
+/* table tr:nth-child(odd) {
+    background-color: #fff;
+}*/
+
+table tr:hover {
+    background-color: #ddd;
+}
+
+ footer {
+    /* border: 3px solid red; */
+    background-color: midnightblue;
+    color: cornsilk;
+    clear: left;
+    padding: 10px;
+    margin: 0px;
+    overflow: auto;
+}
+
+
+.footer_blocks {
+    /* border: 2px white solid; */
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    margin: 0px;
+}
