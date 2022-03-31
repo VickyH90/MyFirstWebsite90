@@ -25,6 +25,11 @@ background:url(../MyFirstWebsite90/imagenes/fondo2\ \(1\).jpg);
     left: calc(50% - 50px);
 }
 
+.login-box .avatar:hover{
+    transform: scale(1.2)
+}
+
+
 .login-box h1 {
     margin: 0;
     padding: 0 0 20px;
@@ -40,6 +45,23 @@ background:url(../MyFirstWebsite90/imagenes/fondo2\ \(1\).jpg);
 .login-box input {
     width: 100%;
     margin-bottom: 20px;
+}
+
+.push{
+    border: none;
+    outline: none;
+    height: 30px;
+    background: #878788;
+    color: black;
+    font-size: x-large;
+    border-radius: 20px; 
+    text-align: center;
+    font-family: arial;
+    margin-bottom: auto;
+}
+
+.push:hover{
+    transform: scale(1.2);
 }
 
 .login-box input[type="submit"] {
