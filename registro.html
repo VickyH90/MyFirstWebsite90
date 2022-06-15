@@ -1,57 +1,65 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang = "en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="registro.css">
-    <title>Registro</title>
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+    <title>form-login | colours JVLP</title>
+    <link rel= "stylesheet" href = "registro.css">
 </head>
 <body>
-    <fieldset class="imgs">
-    <img class="avatar" src="./imagenes/logo.jpg" alt="logo de colours JVLP">
-    </fieldset>
-    <form action="save.php" method="post">
-        <aside >
-   <section class="form_login">
-       <h5> Registro</h5>
-       <input class="controls" type="text" name="nombre_cliente" value="" placeholder="Ingrese su nombre">
-       <input class="controls" type="text" name="apellidos_cliente" value="" placeholder="Ingrese sus apellidos">
-       <input class="controls" type="text" name="tel" value="" placeholder="Ingrese su número telefónico">
-       <input class="controls" type="Nuip" name="ID_cliente" value="" placeholder="Ingrese su número de Documento">
-       <input class="controls" type="email" name="email" value="" placeholder="Ingrese su email">
-       <input class="controls" type="text" name="direcc_cliente" value="" placeholder="Ingrese su dirección">
-       <input class="controls" type="date" name="fn" value="" placeholder="Ingrese su Fecha de Nacimiento"> <br>
+    <div class = "login-box">
+        <img class = "avatar" src = "./imagenes/logo.jpg" alt = "logo de colours JVLP">
+        <h1>Ingrese aquì</h1>
+        <form action = "./htdocs/crudjlvp/BD/save.php" method = "post">    
 
-       <br>
+            <!-- NAME -->
+            <Label for = "Nombre">Nombre</Label>
+            <input type = "text" name = "nombre_cliente" placeholder = "Ingrese su nombre">
 
-    <fieldset class="entrar">
-        <br>
-        
-        <div>
-    <input type ="submit" class = "clic" name = "save">
-    <input type ="button" class="clic" type="reset" value="Limpiar">  
-        </div>
+             <!-- LASTS NAMES -->
+             <Label for= "Apellidos">Apellidos</Label>
+             <input type= "text" name = "apellidos_cliente" placeholder = "Ingrese sus apellidos">
 
-        <p> <a href="#">¿Olvidaste tu Contraseña?</a>
-        <p><a href="#"> ¿No tiene una cuenta?</a> <br>
-        <p><a class="botton" href="inicio.php">Inicio</a>
-        </aside>
-        </fieldset>
-      
-   </section> 
-    </form>
-    <section class="footer">
-    <footer class="pie">
-        <div>
-        <i> <b> puedes ubicar aquí </i> </b> <br>
-        <img src="./imagenes/ubicacion.png" alt="ubicacion" width="10%" height="10%"> <br>
-        <a href="https://goo.gl/maps/AJ7AU86ECDCFtGzh9" target="google maps"> maps </a>
+              <!--TELEPHONE-->
+              <Label for = "Telefono">Teléfono</Label>
+              <input type = "text" name = "tel" placeholder = "Ingrese su número de teléfono">
+
+              <!-- DOCUMENT -->
+              <Label for = "Documento">Documento</Label>
+              <input type = "text" name = "ID_cliente" placeholder = "Ingrese su numero de documento">
+
+              <!-- E-MAIL -->
+             <Label for = "E-mail">E-mail</Label>
+             <input type = "text" name = "email" placeholder = "Ingrese su e-mail">
+
+              <!-- ADRESS -->
+              <Label for = "Direccion">Dirección</Label>
+             <input type = "text" name = "direcc_cliente"  placeholder = "Ingrese su dirección">
+
+
+              <!-- DATE OF BIRTH -->
+              <Label for = "Fecha de nacimiento">Fecha de nacimiento</Label>
+              <input type = "date" name = "fn" placeholder = "Ingrese su fecha de nacimiento">
+
+
+             <input class = "clic" type = "submit" name = "save" value = "REGISTRAR">
+             <input type = "reset" class = "clic" type = "reset" value = "LIMPIAR">
+    
+             <li><a href = "colour.html">Regresar</a></li><br>
+            </form>
     </div>
-        <address> Avenida 33 #75C-56 Laureles, Medellín </address>
-        <a href="info@coloursfv.com">info@coloursfv.com</a>
 
-    </footer>
+</section> 
+</form>
+
+<div class="footer">        
+        <img src="./imagenes/placeholder.png" alt="10" width="10%" style="float: center; margin:2px"> <br>
+        <i> <b> Nos puedes ubicar aquí </i> </b> <br>  
+         <a href="https://goo.gl/maps/AJ7AU86ECDCFtGzh9" target="maps"> google maps </a><br>
+         <address> Avenida 33 #75C-56 Laureles, Medellín </address>
+         <a href="info@coloursfv.com"> info@coloursfv.com</a><br>
+</div>
 </section>
 </body>
-</htm
+</html>
