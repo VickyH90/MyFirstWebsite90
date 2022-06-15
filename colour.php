@@ -16,9 +16,9 @@
     <nav>
         <ul>
             <button style="background-color: black;">
-                <li><a href="inicio.html">Inicio</a></li>
+                <li><a href="inicio.php">Inicio</a></li>
             </button>
-            <button style="background-color: black;"><li><a href="registro.html">Registro</a></li>
+            <button style="background-color: black;"><li><a href="registro.php">Registro</a></li>
                     <li></button>
             <button style="background-color: black;"><li><a href="https://colours.com.co/collections/ofertas">Ofertas</a></li>
             </button>

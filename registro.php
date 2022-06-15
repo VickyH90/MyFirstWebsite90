@@ -11,7 +11,7 @@
     <fieldset class="imgs">
     <img class="avatar" src="./imagenes/logo.jpg" alt="logo de colours JVLP">
     </fieldset>
-    <form action="save.php" method="post">
+    <form action="./htdocs/crudjlvp/BD/save.php" method="post">
         <aside >
    <section class="form_login">
        <h5> Registro</h5>
@@ -54,4 +54,4 @@
     </footer>
 </section>
 </body>
-</htm
+</html>
